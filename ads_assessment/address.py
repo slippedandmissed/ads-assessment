@@ -14,10 +14,10 @@ class Prediction(TypedDict):
 
 
 default_tags: Dict[str, bool] = {
-    "restaurant": True,
+    "cuisine": True,
     "shop": True,
-    "school": True,
-    "public_transport": True
+    "tourism": True,
+    "healthcare": True
 }
 
 
